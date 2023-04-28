@@ -26,13 +26,16 @@ body {
 
 .container {
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
     text-align: center;
+}
+
+.container > article {
+    padding: 1rem;
 }
 
 img {
     display: inline-block;
-    width: 90%;
 }
 
 
