@@ -1,44 +1,84 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(0,0,0,.87);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .container-menu {
-    margin: 0 auto;
-    max-width: 80%;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 .title {
-    font-size: 2.5rem;
-    margin-top: 0;
+  font-size: 2.5rem;
+  margin-top: 0;
 }
 
 .sub-title {
-    margin: 0;
+  margin: 0;
 }
 
 .title-section {
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #999;
-    padding: 1rem 0;
-    font-weight: 500;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 1rem 0;
+  font-weight: 500;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .container > article {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 img {
-    display: inline-block;
+  display: inline-block;
 }
 
+.footer-container {
+  border-top: 1px solid #eee;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
 
+.social-media ul,
+.extra-info ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #999;
+}
 
+.social-icon,
+.extra-info-item {
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #999
 
+}
 
+.copyright {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #999;
+  margin: 10px 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.social-media ul li, 
+.extra-info ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media ul li a:hover, 
+.extra-info ul li a:hover {
+    color: #777;
+}
